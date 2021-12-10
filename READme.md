@@ -1,0 +1,2 @@
+front-end.
+projeto desenvolvido por Gesane e Karine para presença e nota do Segundo Bimestre da disciplina de Programação Web. A API mostra dados de alguns livros mais famosos da literatura brasileira. O resultado nao foi 100% como planejamos.
