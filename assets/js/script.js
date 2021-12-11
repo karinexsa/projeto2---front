@@ -30,9 +30,9 @@ form.addEventListener("submit", function(evt){//para que a pag nao recarregue qu
 });
 
 const fetchData = async () => {
-    let result = await fetch("https://api-pw-books.herokuapp.com/livros/");
+    let result = await fetch("https://api-pweb.herokuapp.com/livros/");
     const autores = await result.json();
-    let result = await fetch("https://api-pw-books.herokuapp.com/autores");
+    result = await fetch("https://api-pweb.herokuapp.com/autores");
     const livros = await result.json();
 
     livros.forEach((livros) =>{
